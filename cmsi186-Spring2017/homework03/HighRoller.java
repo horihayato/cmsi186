@@ -3,7 +3,7 @@
  *  File name     :  HighRoll.java
  *  Purpose       :  Demonstrates the use of input from a command line for use with Yahtzee
  *  Author        :  B.J. Johnson
- *  Date          :  2017-02-21
+ *  Date          :  2017-02-23
  *  Description   :  
  *  Notes         :  None
  *  Warnings      :  None
@@ -82,6 +82,7 @@ public class HighRoll{
                   System.out.println("Nothing was entered. Please try again");
                   return;
                }
+
                String[] numbs = reading.split(" ");
                int userInput = Integer.parseInt(numbs[0]);
                ds.rollIndividual(userInput);
