@@ -2,7 +2,7 @@
  *  File name     :  Die.java
  *  Purpose       :  Provides a class describing a single die that can be rolled
  *  @author       :  Hayato Hori
- *  Date          :  2017-02-21
+ *  Date          :  2017-02-23
  *  Description   :  This class provides the data fields and methods to describe a single game die.  A
  *                   die can have "N" sides.  Sides are randomly assigned sequential pip values, from 1
  *                   to N, with no repeating numbers.  A "normal" die would thus has six sides, with the
